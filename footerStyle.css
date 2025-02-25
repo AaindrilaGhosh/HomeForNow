@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.footer{
+    background-color: #24262b;
+    padding-top: 60px;
+    height: 300px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 0;
+}
+
+.footer_logo{
+	align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer_logo img{
+    border-radius: 50%;
+}
+
+.other-searches h2{
+    margin: 50px 0 5px 50px;
+}
+.other-searches h3{
+    margin: 10px 0 10px 50px;
+}
+.search{
+    margin-left: 70px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: gray;
+	padding-bottom: 60px;
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
+
+
+
+ul{
+	list-style: none;
+}
+.row{
+    justify-content: center;
+}
+
+.row{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col ul{
+	display: flex;    /*changes*/
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+	color: #ffffff;
+	font-weight: 300;
+    margin: 60px 50px 0px 50px;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+	text-decoration: underline;
+}
+
+.admin-login{
+	color: white;
+	display: flex;
+	font-size: 1.2rem;
+	position: relative;
+	right: 340px;
+    top: 100px;
+	cursor: pointer;
+}
+
+#admin-login{
+	margin-left: 10px;
+	color: white;
+}
+
+/* Media Queries for responsiveness */
+@media (min-width: 1024px) {
+	
+	.footer_logo{
+	    display: flex;
+	    justify-content: center;
+	}
+	
+	.footer-col ul {
+    	margin-top: 50px;
+    	display: flex;
+    	margin-left: 160px;
+	}
+	.admin-login{
+	    position: relative;
+        right: 435px;
+        top: 130px;
+	}
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 5px;
+        width: auto;
+    }
+
+    .footer-container {
+        margin-top: 40px;
+    }
+
+    .footer-col ul li {
+        margin: 5px 0;
+    }
+
+    .admin-login {
+        position: relative;
+        left: 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 30px 5px;
+        width: auto;
+    }
+
+    .footer-container {
+        margin-top: 40px;
+    }
+
+    .footer-col ul li {
+        width: max-content;
+        margin: 3px;
+    }
+    
+    .footer-col ul{
+        flex-wrap: wrap;
+    }
+    
+    .footer-col ul li a{
+        margin: 16px;
+    }
+
+    .admin-login {
+        position: relative;
+        left: -6px;
+    }
+}

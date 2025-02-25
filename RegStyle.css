@@ -1,0 +1,150 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: #6482AD;*/
+    color: white;
+}
+
+.reg-cont{
+    background-color: #DBAFA0;
+    height: 535px;
+    width: 380px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    position: relative;
+    left: 600px;
+    top: 93px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.2);
+}
+
+.reg-head{
+    text-align: center;
+    margin-top: 25px;
+}
+
+#name, #pswd, #email, #phone{
+    height: 35px;
+    width: 255px;
+    margin: 35px 0px 0px 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding-left: 15px;
+}
+
+i{
+    position: relative;
+    right: 35px;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.agreement{
+    display: flex;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.agreement p{
+    margin-left: 10px;
+}
+
+#agreement{
+    display:inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#reg{
+    width: 150px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 40px 0px 0px 115px;
+    cursor: pointer;
+}
+
+.login{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+#togglePass {
+    position: absolute; 
+    right: 5px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+#togglePass:focus {
+    outline: none;
+}
+
+#togglePassSlash{
+	cursor: pointer; 
+	position: absolute; 
+	right: 5px; 
+	top: 50%; 
+	transform: translateY(-50%); 
+}
+
+.pass i{
+	color: black;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .reg-cont {
+        position: relative;
+        left: 320px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reg-cont {
+        width: 50%;
+        position: relative;
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .reg-cont {
+        width: 80%;
+        position: relative;
+        left: 45px;
+    }
+
+    .reg-head {
+        font-size: 30px;
+    }
+
+    /*input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 100%;
+    }*/
+
+    /*button {
+        width: 100%;
+        padding: 12px;
+    }*/
+
+    .agreement {
+        margin-left: 55px;
+        font-size: 14px;
+    }
+
+    .login {
+        font-size: 14px;
+        margin-left: 100px;
+    }
+}

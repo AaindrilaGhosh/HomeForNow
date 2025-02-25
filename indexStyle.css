@@ -1,0 +1,388 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+   height: 100px;
+}
+
+body{
+    background-image: url("Images/homebg.png");
+    background-position:top;
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    margin-left: 370px;
+    padding-top: 84px;
+    color: yellow;
+    font-size: 56px;
+}
+
+.lower-nav h4{
+	position: relative;
+    top: 32px;
+}
+
+.logo img{
+    margin-left: 50px;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    height:70px;
+    border-radius: 50px;
+}
+
+.logo{
+    display: flex;
+}
+
+.nav-logged-in {
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.user-profile {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#user-icon{
+	background-color: white;
+	border-radius: 50%;
+	padding: 10px;
+	text-align: center;
+	align-content: center;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 10px; 
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+    display: none; 
+    width: 265%;
+}
+
+.dropdown-toggle {
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color: white; 
+    font-size: 16px; 
+    margin-left: 8px; 
+}
+
+.dropdown a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none; 
+}
+
+.dropdown a:hover {
+    background-color: aqua; 
+}
+
+#user-options {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#user-options:hover {
+    border-color: #007bff;
+}
+
+.nav-bar a{
+   padding-inline: 28px;
+   font-size: 15px;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+.nav-bar{
+    padding-left: 685px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar.logged-in {
+	padding-left: 780px;
+}
+
+.nav-bar .dropdown a{
+	color: black;
+}
+
+.title{
+    height: 450px;
+}
+
+.lower-nav{
+    padding-left: 580px;
+    padding-top: 180px;
+    color: rgb(255, 255, 255);
+   
+}
+.lower-nav a{
+    font-size: 15px;
+    color: rgb(164, 230, 230);
+}
+
+.container{
+    height: 90%;
+    width: 100%;
+}
+
+.see-all {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 1390px;
+    top: -43px;
+}
+
+.see-all:hover{
+	text-decoration: underline;
+}
+
+.recent-adds h3{
+    margin: 0px 0px 45px 50px;
+    font-size: 30px;
+}
+
+.recent-adds .recent-cap{
+    margin-left: 50px;
+    font-size: 17px;
+    position: relative;
+    bottom: 41px;
+}
+
+.recent-imgs img{
+    height: 300px;
+    width: 400px;
+    object-fit: fill;
+    border-radius: 20px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 69px;
+}
+
+.recent-imgs{
+    display: flex;
+}
+
+.recent-one, .recent-two, .recent-three{
+    margin: 20px 25px 20px 25px;
+}
+
+.room-price{
+    font-size: 22px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 62px;
+    left: 18px;
+}
+
+.room-cap{
+    margin: 7px;
+    margin-left: 50px;
+    font-size: 17px;
+    position: relative;
+    bottom: 63px;
+    left: 15px;
+}
+
+.room-cap a{
+	color: black;
+	text-decoration: none;
+}
+
+.see-all2 {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    left: 1365px;
+    top: 20px;
+}
+
+.see-all2:hover{
+	text-decoration: underline;
+}
+
+/*.features{
+	margin-bottom: 100px;
+}
+
+.features h3{
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.feature-caption{
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+.feature-imgs{
+    display: flex;
+    margin-left: 50px;
+}
+
+.feature-imgs img{
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 20px 40px 20px 40px; 
+} 
+
+.feature-cap{
+    margin-left: 40px;
+}*/
+
+
+/* General Responsive Design */
+
+/* Tablets (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+	body {
+        background-size: 100% 19%;
+    }
+    
+    .nav-bar {
+        justify-content: center;
+        gap: 10px;
+        padding-left: 200px;
+    }
+
+    .title h1 {
+        font-size: 30px;
+        margin-left: 250px;
+    }
+
+    .recent-imgs, .feature-imgs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .lower-nav h4{
+         position: relative;
+         right: 200px;
+    }
+}
+
+/* Mobile Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+	body {
+        background-size: 100% 15%;
+    }
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar {
+        top: 20px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 300px;
+    }
+
+    .recent-imgs, .feature-imgs {
+        flex-wrap: wrap;
+    }
+
+    .recent-imgs div, .feature-imgs div {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .title h1 {
+        font-size: 24px;
+        position: relative;
+        right: 40px;
+        top: 50px;
+    }
+    
+    .lower-nav h4{
+         position: relative;
+         right: 250px;
+    }
+}
+
+/* Small Mobile Devices (up to 480px) */
+@media screen and (max-width: 480px) {
+	
+	.nav-bar{
+	    top: 20px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 54px;
+	}
+	
+	.logo img{
+	    margin-left: 15px;
+        margin-top: 10px;
+	}
+	
+    .header {
+        padding: 10px;
+    }
+
+    .nav-bar a {
+        font-size: 14px;
+    }
+
+    .title h1 {
+        font-size: 20px;
+        position: relative;
+        right: 154px;
+        width: 100%;
+    }
+
+    .recent-imgs div, .feature-imgs div {
+        width: 100%;
+    }
+
+
+    .see-all, .see-all2 {
+        font-size: 14px;
+    }
+    
+    .lower-nav h4{
+         position: relative;
+         width: max-content;
+         right: 412px;
+         font-size: 20px;
+    }
+    
+    .features h3{
+        margin-top: 26px;
+    }
+    
+    .feature-imgs img{
+         margin: 2px 0 7px 2px;
+    }
+    
+    .feature-cap{
+         margin: 5px 0 15px 5px;
+    }   
+}

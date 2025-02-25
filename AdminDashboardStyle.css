@@ -1,0 +1,211 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#logo {
+    height: 110px;
+    position: relative;
+    left: 80px;
+    top: 30px;
+    border-radius: 50%;
+    background-color: #704264;
+    margin-bottom: 40px;
+}
+
+.upper-nav {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 1309px;
+    padding-bottom: 10px;
+    margin-left: 210px;   /*comment out later*/
+}
+
+#admin-icon{
+    color: #000000;
+    background-color: transparent;
+}
+
+.admin-sec {
+    padding: 5px;
+    display: flex;
+    position: relative;
+    display: inline-block;
+    left: 1150px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.admin-sec i{
+	color: black;
+	background-color: white;
+}
+
+.admin-sec a{
+	text-decoration: none;
+	color: black;
+	font-size: larger;
+	position: relative;
+	bottom: 5px;
+}
+
+.admin-sec a:hover{
+	text-decoration: underline;
+}
+
+#admins {
+    margin-left: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.separator {
+    width: 1309px;
+    height: 1.2px;
+    margin-left: 210px;
+}
+
+.left-nav {
+    width: 18%;
+    position: fixed; /* Keep it fixed to the side */
+    left: 0; /* Position it on the left */
+    top: 0; /* Position it at the top */
+    bottom: 0; /* Extend to the bottom of the viewport */
+    background-color: #704264;
+    height: 100vh; /* Set the height to 100% of the viewport */
+}
+
+.left-nav-items {
+    display: flex;
+    padding: 25px;
+    font-size: 18px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #704264;
+}
+
+.left-nav-items:hover{
+    background-color: black;
+}
+
+.left-nav-items:hover i {
+    background-color: black;
+}
+
+.left-nav-items:hover a{
+    background-color: black;
+} 
+
+.left-nav-items i {
+    font-size: 25px;
+    margin: 10px;
+}
+
+
+.left-nav-items a {
+    background-color: #704264;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.left-nav-items:last-child {
+    border-bottom: none; 
+}
+
+.dash-cont {
+    display: flex;
+    margin-left: 250px;
+}
+
+#dash-head {
+    margin: 20px 0px 0px 50px;
+    font-size: 50px;
+}
+
+.dash-items {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px 0px 210px;
+}
+
+#dash-item {
+    height: 250px;
+    width: 250px;
+    background-color: #704264;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 40px 80px 0px 0px;
+    box-shadow: 0 0 7px ;
+}
+
+#item-count, #count {
+    background-color: #704264;
+}
+
+#count {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.property-table{
+	color: black;
+	margin: 80px 0 0 60px;
+	width: 90%;
+}
+
+.property-table a{
+	position: relative;
+	left: 885px;
+	top: 10px;
+	text-decoration: none;
+}
+
+.property-table a:hover{
+	text-decoration: underline;
+}
+h3{
+	font-size: x-large;
+    margin: 20px 0 0 80px;
+}
+
+table{
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 80%;
+	background: rgb(139, 223, 101);
+	border-radius: 15px;
+	margin: 10px 0 0 60px;
+}
+
+th:hover{
+	background-color: cornsilk;
+}
+td:hover{
+	background-color: cornsilk;
+}
+
+td{
+	text-align: center;
+}
+
+th, td{
+	/*border: 2px solid black;*/
+	border-collapse: collapse;
+	padding: 10px;
+	word-wrap: break-word; /*Ensures long text wraps instead of breaking the layout*/
+	overflow: hidden; /* Hides overflow content for fixed-width cells */
+    text-overflow: ellipsis; /* Adds "..." for truncated text */
+}

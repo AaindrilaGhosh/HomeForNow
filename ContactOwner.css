@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: grid;
+}
+
+h1{
+	font-size: 40px;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.owner-details-cont{
+	padding: 14px;
+    height: 200px;
+    width: 333px;
+    justify-self: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: bisque;
+    font-size: 19px;
+}
+
+h2{
+	text-align: center;
+    margin: 10px;
+}
+
+p{
+	margin: 24px;
+}

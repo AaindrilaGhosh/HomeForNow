@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2{
+    margin-top: 20px;
+}
+.container{
+    text-align: center;
+    margin-top: 120px;
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    /*position: relative;
+    left: 400px;*/
+    background-color: rgb(243, 208, 243);
+}
+.card-num h4{
+  margin-left: 20px;
+   
+}
+
+.card-num{
+    position: relative;
+    top: 40px;
+    right: 220px;
+}
+.card-num-box{
+    width: 350px;
+    height: 30px;
+    padding-left: 10px;
+    margin-left: 250px;
+}
+.exp-month{
+    position: relative;
+    top: 70px;
+    right: 285px;
+}
+.exp-month h4{
+   margin-left: 135px;
+}
+.exp-month-box{
+    width: 500px;
+    height: 30px;
+   margin-left: 315px;
+   padding-left: 10px;
+}
+.exp-year h4{
+   position: relative;
+   top: 100px;
+   right: 225px;
+}
+.exp-year-box{
+position: relative;
+top: 100px;
+right: 195px;
+width: 150px;
+height: 30px;
+}
+.cvv h4{
+    position: relative;
+    right: 20px;
+}
+
+.cvv-box{
+    width: 80px;
+    height: 30px;
+    padding-left: 10px;
+}
+.cvv{
+    position: relative;
+    bottom: 110px;
+    margin-left: 370px;
+}
+.card {
+    display: flex;
+    position: relative;
+    
+   margin-left: 370px;
+    gap: 5px;
+   
+
+}
+.accept-card h4{
+   position: relative;
+   margin-left: 270px;
+    
+
+}
+.master_card{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.paypal_card{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.visa_card{
+    width: 50px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin-top: 40px;
+    background-color: rgb(252, 226, 193);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray, -3px -3px 5px lightgray;
+    cursor: pointer;
+   
+}

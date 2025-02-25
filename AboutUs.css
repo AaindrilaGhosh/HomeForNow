@@ -1,0 +1,145 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1{
+    position: relative;
+    top: 100px;
+    margin-left: 700px;
+
+}
+.about-us{
+    background-color: #e1f4f7;
+}
+
+#about{
+    margin-left: 600px;
+    padding: 25px;
+    margin-right: 100px;
+    line-height: 25px;
+    position: relative;
+    top: 100px;
+}
+
+.image{
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 220px;
+    margin-left: 100px;
+    border: 5px solid black;
+}
+.second_img img{
+    width: 450px;
+    border-radius: 15px;
+    position: relative;
+    left: 800px;
+    bottom: 100px; 
+    border: 5px solid black; 
+}
+ #vision-heading {
+    margin-left: 100px;
+   position: relative;
+   bottom: 400px;
+}
+#vision-content{
+    position: relative;
+    bottom: 380px;
+    line-height: 25px;
+    margin: 0px 750px 20px 100px;
+}
+#values-heading{
+    margin-left:100px ;
+    position: relative;
+    bottom: 320px;
+}
+#value-content{
+   position: relative;
+   bottom:300px ;
+   line-height: 25px;
+   margin: 0px 500px 60px 100px; 
+}
+.third-img img{
+    width: 300px;
+    position: relative;
+    left: 950px;
+    bottom: 590px;
+    border: 5px solid black;
+}
+#location-heading{
+    position: relative;
+    bottom: 530px;
+    margin-left: 100px;
+}
+#location-content{
+    position: relative;
+    bottom: 515px;
+    line-height: 25px;
+    margin: 0px 100px 20px 100px;
+}
+#team-heading{
+    position: relative;
+    bottom: 490px;
+    margin-left: 100px;
+}
+#team-content{
+    position: relative;
+    bottom: 470px;
+    line-height: 25px;
+    margin: 0px 100px 20px 100px;
+}
+#reason-heading{
+    margin-left: 100px;
+    position: relative;
+    bottom: 450px;
+}
+#choosing{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 430px;
+    line-height: 25px;
+}
+.pictures img{
+    width: 320px;
+    height: 250px;
+    border: 5px solid black;
+    margin-right: 10px;
+}
+.pictures{
+    display: flex;
+}
+/* h3{
+    color: white;
+    text-decoration: underline;
+	text-decoration-color: red;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 210px;
+    margin-left: 400px;
+}
+a{
+    text-decoration: none;
+    color: rgb(172, 168, 168);
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 118px;
+    margin-left: 600px;
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+    margin-left: 830px;
+} */

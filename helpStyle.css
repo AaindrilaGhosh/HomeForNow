@@ -1,0 +1,130 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	/*background-color: #e1f4f7;*/
+}
+.header-content{
+	margin-left:640px;
+	margin-top:70px;
+}
+
+.search-bar{
+	margin-left:530px;
+    margin-top:20px;
+    height:50px;
+    width:500px;
+	position:relative;
+	/*bottom:200px;*/
+	padding-left:20px;
+	border-radius:15px;
+}
+
+.phone-box{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid rgb(24, 18, 18);
+    position: relative;
+    top: 100px;
+    left: 430px;
+}
+
+.phone-icon{
+   margin-left: 140px;
+   margin-top: 50px;
+   background-color: white;
+}
+
+.phone{
+    margin-left: 70px;
+    padding: 10px;
+    background-color: white;
+}
+
+.ph{
+  margin-left: 60px;
+  background-color: white;
+}
+
+.email-box{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid rgb(24, 18, 18);
+    position: relative;
+    bottom: 152px;
+    left: 850px;
+}
+
+.email-icon{
+   margin-left: 140px;
+   margin-top: 50px;
+   background-color: white;
+}
+
+.email{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.em{
+  margin-left: 70px;
+  background-color: white;
+}
+
+.instagram-box{ 
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid rgb(24, 18, 18);
+    position: relative;
+    bottom: 125px;
+    left: 430px;
+}
+
+.instagram-icon{
+   margin-left: 140px;
+   margin-top: 50px;
+   background-color: white; 
+}
+
+.insta{
+    margin-left: 90px;
+    padding: 10px;
+    background-color: white;
+}
+
+.in{
+  margin-left: 90px;
+  background-color: white;
+} 
+
+.address-box{  
+    width: 300px;
+    height: 250px;
+   background-color: white;
+    border: 2px solid rgb(24, 18, 18);
+    position: relative;
+    bottom: 375px;
+    left: 850px;
+}
+
+.address-icon{
+   margin-left: 140px;
+   margin-top: 50px;
+ background-color: white;
+}
+
+.address{
+    margin-left: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.add{
+  margin-left: 30px;
+  background-color: white;
+}

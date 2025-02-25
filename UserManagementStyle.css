@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+    background-color: #e1f4f7;
+    
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.user-list th,td {
+    padding: 12px 15px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+.user-list th {
+    background-color: #09648b;
+    color: #fff;
+}
+
+.user-list td {
+    background-color:whitesmoke;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    margin-left: 5px;
+}
+
+.add-user form {
+    display: flex;
+    flex-direction: column;
+}
+.add-user label {
+    margin-bottom: 5px;
+}
+
+.add-user input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccccccfd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add-btn {
+    background-color: #2ecc38;
+    color: #fff;
+    align-self: flex-start;
+}
